@@ -8,6 +8,7 @@ import BeerList from "./components/beer-list.component";
 import IndexPage from "./components/index.component";
 import SearchBeer from "./components/search-beer.component";
 import FindBrewery from "./components/find-brewery.component"
+import Header from './components/Header.js'
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
             </ul>
           </div>
           </nav>
+          <Header/>
           <br/>
           <Route path="/" exact component={IndexPage} />
           <Route path="/beerlist" component={BeerList}/>

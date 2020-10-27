@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background-color: #CDC0A6;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header{
+  background-image: url('https://i.ibb.co/ZXYBzwJ/sessionable-beer-header.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  max-width: 1280px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.col{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  /* width: 200px; */
+}
+
+.icon{
+  display: inline-block;
+}
+
+p{
+  text-align: center;
 }
