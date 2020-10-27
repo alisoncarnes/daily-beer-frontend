@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+.container{
+  background-color: white !important;
+}
+
 header{
   background-image: url('https://i.ibb.co/ZXYBzwJ/sessionable-beer-header.png');
   background-repeat: no-repeat;
@@ -44,8 +48,26 @@ header{
 
 .icon{
   display: inline-block;
+  background-color: white;
+  padding: 10px;
+}
+
+.beer-icon{
+  height: 100px;
+  width: auto;
 }
 
 p{
   text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
 }

@@ -18,7 +18,20 @@ export default class TodosList extends Component {
                 <div className="col">
                 <div className="icon">
                   <img className="beer-icon" src="https://i.ibb.co/QHF6DJs/beerkegs.png"/>
-                  <p>Text Here</p>
+                  <p><h2>Get Started</h2></p>
+                  <div class="buttons">
+                    <form action="https://dailybeer.herokuapp.com/beerlist">
+                      <button type="submit" class="btn btn-outline-secondary">Your Beer List</button>
+                    </form>
+                    <div className="divider"/>
+                    <form action="https://dailybeer.herokuapp.com/search">
+                        <button type="submit" class="btn btn-outline-secondary">Discover Beers</button>
+                    </form>
+                    <div className="divider"/>
+                    <form action="https://dailybeer.herokuapp.com/brewery">
+                        <button type="submit" class="btn btn-outline-secondary">Find a Brewery</button>
+                    </form>
+                  </div>
                 </div>
                 </div>
 
