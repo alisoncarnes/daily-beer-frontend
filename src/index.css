@@ -17,6 +17,10 @@ code {
   background-color: white !important;
 }
 
+.navbar{
+  background-color: white !important;
+}
+
 header{
   background-image: url('https://i.ibb.co/ZXYBzwJ/sessionable-beer-header.png');
   background-repeat: no-repeat;
@@ -30,6 +34,15 @@ header{
   margin-top: 0;
   padding: 2em;
   box-sizing: border-box;
+}
+
+header h1{
+  font-family: 'Sonsie One', cursive;
+  font-size: 3em;
+  color:#F0EFEC;
+    -webkit-text-stroke: 2px #F4A176;
+    margin-top: 100px;
+
 }
 
 .row{

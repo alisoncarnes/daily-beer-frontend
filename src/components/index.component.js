@@ -9,7 +9,7 @@ export default class TodosList extends Component {
 
                   <div className="icon">
                     <img className="beer-icon" src="https://i.ibb.co/YDsR8Gq/kisspng-beer-oktoberfest-computer-icons-alcoholic-drink-cl-oktoberfest-5ac072f546e768-40786661152256.png"/><br/>
-                    <p><h2>About Site</h2></p>
+                    <p><h2>About the Site</h2></p>
                     <p>Welcome to Daily Beer! With this app you can keep track of beers you enjoy, find breweries you may want to try when visiting a new city, or discover new beers you may have not known about! </p>
                   </div>
 
