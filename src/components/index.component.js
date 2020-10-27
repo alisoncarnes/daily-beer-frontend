@@ -39,7 +39,74 @@ export default class TodosList extends Component {
             </div>
 
             <div className="suggestions">
-              <h2>Beer's of the Week</h2>
+              <h2>top rated beers</h2>
+              <p>Here's a list of beers rated on <a href="https://www.beeradvocate.com/">Beer Advocate</a> you might want to try.</p>
+            </div>
+
+            <div className="beer-suggestions">
+              <h3>porter</h3>
+                <div className="row">
+                  <div className="col">
+                    <div className="card" style={{width: "18rem"}}>
+                      <img src="https://www.americancraftbeer.com/wp-content/uploads/2016/02/20140904103646_Hill-Farmstead-Logo.png" className="card-img-top" style={{marginTop: '10px'}}/>
+                      <div className="card-body">
+                      <h5 className="card-title">Everett Porter</h5>
+                    <p className="card-text">
+                      <b>Brewery:</b> Hill Farmstead Brewery <br/>
+                      <b>BA Score:</b> 100<br/>
+                      <b>ABV:</b> 7.5%
+                    </p>
+                      <a href="https://www.beermenus.com/beers/10068-hill-farmstead-everett?user_type_survey=1" class="btn btn-pirmary" style={{marginTop: '40px'}}>Shop</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col">
+                    <div className="card" style={{width: "18rem"}}>
+                      <img src="https://d2pxm94gkd1wuq.cloudfront.net/BreweryLogos/Standard/746046303.jab-logo-print-2color-pms3435-pms375.jpg" className="card-img-top" style={{marginTop: '10px'}}/>
+                      <div className="card-body">
+                      <h5 className="card-title">Barrel-Aged Framinghammer</h5>
+                      <p className="card-text">
+                        <b>Brewery:</b> Jack's Abby Brewing <br/>
+                        <b>BA Score:</b> 97<br/>
+                        <b>ABV:</b> 10%
+                      </p>
+                      <a href="https://www.beermenus.com/beers/99463-jack-s-abby-cocoa-nut-barrel-aged-framinghammer" class="btn btn-pirmary" style={{marginTop: '10px'}}>Shop</a>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col">
+                    <div className="card" style={{width: "18rem"}}>
+                      <img src="https://i.ibb.co/ySv0xLg/fullers-brewery.png"/>
+                      <div className="card-body">
+                      <h5 className="card-title">London Porter</h5>
+                      <p className="card-text">
+                        <b>Brewery:</b> Fuller's <br/>
+                        <b>BA Score:</b> 94<br/>
+                        <b>ABV:</b> 5.4%
+                      </p>
+                      <a href="https://www.beermenus.com/beers/386328-fuller-s-london-porter">Shop</a>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+
+
+
+              <h3>stout</h3>
+
+              <h3>ipa</h3>
+
+              <h3>pale ale</h3>
+
+              <h3>sour</h3>
             </div>
 
           </div>
