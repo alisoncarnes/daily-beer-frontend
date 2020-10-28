@@ -122,7 +122,28 @@ a{
 }
 
 footer{
+  padding: 10px;
   background-color: #F4A176;
   color: whitesmoke;
-  margin: 0 !important;
+  width: 100% !important;
+  font-size: 25px;
+  margin: auto;
+
+}
+
+footer h1{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+    margin: auto;
+}
+
+.footer-links{
+  color: whitesmoke !important;
+  font-size: 50px;
 }

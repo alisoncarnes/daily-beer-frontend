@@ -155,7 +155,7 @@ export default class TodosList extends Component {
 
               <div className="row">
                 <div className="col">
-                  <div className="card">
+                  <div className="card" style={{width: "18rem"}}>
                     <img src="https://i.ibb.co/F4phTgk/5293448-alpinebeerco.jpg" />
                   <div className="card-body" style={{marginTop: '5px'}} >
                     <h5 className="card-title">Nelson</h5>
@@ -171,7 +171,7 @@ export default class TodosList extends Component {
               </div>
 
                   <div className="col">
-                    <div className="card">
+                    <div className="card" style={{width: "18rem"}}>
                       <img src="https://i.ibb.co/t2H38xM/bazziergraphik-113.jpg" style={{marginTop: '40px'}} />
                     <div className="card-body">
                       <h5 className="card-title"style={{marginTop: '10px'}}>Citra Bitter Monk</h5>
@@ -187,7 +187,7 @@ export default class TodosList extends Component {
                 </div>
 
                   <div className="col">
-                    <div className="card">
+                    <div className="card" style={{width: "18rem"}}>
                       <img src="https://i.ibb.co/V2z5bCb/bpbc-webheader-lg.jpg" style={{marginTop: '50px'}} />
                     <div className="card-body" style={{marginTop: '20px'}}>
                       <h5 className="card-title">Barrel Aged Double Shot Double Black</h5>
