@@ -147,3 +147,23 @@ footer h1{
   color: whitesmoke !important;
   font-size: 50px;
 }
+
+.add{
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+
+label{
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+
+
+.danger:hover {
+  background: #f44336 !important;
+  color: white !important;
+}

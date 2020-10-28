@@ -69,7 +69,7 @@ export default class CreateBeer extends Component {
     render() {
         return (
             <div style={{marginTop: 10}}>
-                <h3>Add a Beer</h3>
+                <h3 className="add">Add a Beer</h3>
                 <form onSubmit = {this.onSubmit}>
                   <div className="form-group">
                   <label>Beer Name:</label>
@@ -104,7 +104,7 @@ export default class CreateBeer extends Component {
                           />
                   </div>
                   <div className="form-group">
-                        <input type="submit" value="Add Beer" className="btn btn-primary" />
+                        <input type="submit" value="Add Beer" className="btn btn-outline-secondary" style={{width: "100%"}} />
                     </div>
                 </form>
             </div>

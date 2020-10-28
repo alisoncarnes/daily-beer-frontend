@@ -99,7 +99,7 @@ export default class EditTodo extends Component {
     render() {
         return (
             <div>
-            <h3 align="center">Update Beer</h3>
+            <h3 className="add">Update Beer</h3>
             <form onSubmit = {this.onSubmit}>
               <div className="form-group">
               <label>Beer Name:</label>
@@ -133,15 +133,21 @@ export default class EditTodo extends Component {
                       onChange={this.onChangeBeerABV}
                       />
               </div>
+
+
               <div className="form-group">
-                    <input type="submit" value="Edit Beer" className="btn btn-primary" />
+                    <input type="submit" value="Edit Beer" className="btn btn-outline-secondary" style={{width: "100%"}} />
               </div>
-            </form>
-            <form onSubmit={ this.deletedBeer }>
-              <div className="form-group">
-                <input type = "submit" value="Delete"/>
-              </div>
-            </form>
+
+              </form>
+
+              <form onSubmit={ this.deletedBeer }>
+                <div className="form-group">
+                  <input type = "submit" className="btn btn-outline-secondary danger" style={{width: "100%"}} value="Delete"/>
+                </div>
+              </form>
+
+
           </div>
         )
     }
