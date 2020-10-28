@@ -93,23 +93,120 @@ export default class TodosList extends Component {
                     </div>
                   </div>
 
-
-
                 </div>
 
 
 
 
               <h3>stout</h3>
+              <div className="row">
+                <div className="col">
+                  <div className="card" style={{width: "18rem"}}>
+                    <img src="https://i.ibb.co/1MKh9ms/Tree-House-Logo-Primary-Horizontal-Black-01.jpg" style={{marginTop: '40px'}}/>
+                  <div className="card-body">
+                    <h5 className="card-title"><br/><br/>Double Shot</h5>
+                    <p className="card-text" style={{marginTop: '20px'}}>
+                    <b>Brewery:</b> Tree House Brewing Co <br/>
+                    <b>BA Score:</b> 100<br/>
+                    <b>ABV:</b> 7.6%
+                    </p><br/>
+                    <a href="https://www.beermenus.com/beers/93972-tree-house-double-shot" >Shop</a>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+                <div className="col">
+                  <div className="card" style={{width: "18rem"}}>
+                    <img src="https://i.ibb.co/3RkcSkY/Toppling-Goliath-KBBS-2019-Feature.jpg"/>
+                  <div className="card-body">
+                    <h5 className="card-title">Kentucky Brunch Brand Stout</h5>
+                    <p className="card-text">
+                    <b>Brewery:</b> Toppling Goliath Brewing Company <br/>
+                    <b>BA Score:</b> 100<br/>
+                    <b>ABV:</b> 12%
+                    </p>
+                    <a href="https://www.beermenus.com/beers/139632-kentucky-brunch-brand-stout">Shop</a>
+
+                  </div>
+                </div>
+              </div>
+
+                <div className="col">
+                  <div className="card" style={{width: "18rem"}}>
+                    <img src="https://i.ibb.co/3vy6vXk/Samuel-Smith-Brewery-logo-svg.png" style={{marginTop: '20px'}}/>
+                  <div className="card-body"    style={{marginTop: '40px'}}>
+                    <h5 className="card-title">Organic Chocolate Stout</h5>
+                    <p className="card-text" style={{marginTop: '40px'}}>
+                    <b>Brewery:</b>Samuel Smith Old Brewery<br/>
+                    <b>BA Score:</b> 95<br/>
+                    <b>ABV:</b> 5%
+                    </p>
+                    <a href="https://www.beermenus.com/beers/22453-samuel-smith-s-organic-chocolate-stout">Shop</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
 
               <h3>ipa</h3>
 
-              <h3>pale ale</h3>
+              <div className="row">
+                <div className="col">
+                  <div className="card">
+                    <img src="https://i.ibb.co/F4phTgk/5293448-alpinebeerco.jpg" />
+                  <div className="card-body" style={{marginTop: '5px'}} >
+                    <h5 className="card-title">Nelson</h5>
+                    <p className="card-text"  >
+                    <b>Brewery:</b> Alpine Beer Company<br/>
+                    <b>BA Score:</b> 99<br/>
+                    <b>ABV:</b> 7%
+                    </p>
+                    <a href="https://www.beermenus.com/beers/9644-alpine-beer-company-nelson" >Shop</a>
 
-              <h3>sour</h3>
+                  </div>
+                </div>
+              </div>
+
+                  <div className="col">
+                    <div className="card">
+                      <img src="https://i.ibb.co/t2H38xM/bazziergraphik-113.jpg" style={{marginTop: '40px'}} />
+                    <div className="card-body">
+                      <h5 className="card-title"style={{marginTop: '10px'}}>Citra Bitter Monk</h5>
+                      <p className="card-text"style={{marginTop: '5px'}} >
+                      <b>Brewery:</b> Anchorage Brewing Company<br/>
+                      <b>BA Score:</b> 96<br/>
+                      <b>ABV:</b> 9%
+                      </p>
+                      <a href="https://www.beermenus.com/beers/358010-anchorage-bitter-monk-citra-dry-hopped">Shop</a>
+
+                    </div>
+                  </div>
+                </div>
+
+                  <div className="col">
+                    <div className="card">
+                      <img src="https://i.ibb.co/V2z5bCb/bpbc-webheader-lg.jpg" style={{marginTop: '50px'}} />
+                    <div className="card-body" style={{marginTop: '20px'}}>
+                      <h5 className="card-title">Barrel Aged Double Shot Double Black</h5>
+                      <p className="card-text" >
+                      <b>Brewery:</b> Bent Paddle Brewing Co.<br/>
+                      <b>BA Score:</b> 98<br/>
+                      <b>ABV:</b> 11.2%
+                      </p>
+                      <a href="https://www.beermenus.com/">Shop</a>
+
+                    </div>
+                  </div>
+                </div>
+
             </div>
 
-          </div>
+        </div>
+      </div>
+
         )
     }
 }

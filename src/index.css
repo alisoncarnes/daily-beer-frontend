@@ -120,3 +120,8 @@ a{
 .card-text{
   text-align: left !important;
 }
+
+footer{
+  background-color: #F4A176;
+  color: whitesmoke;
+}
