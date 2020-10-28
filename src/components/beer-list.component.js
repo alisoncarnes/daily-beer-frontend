@@ -97,7 +97,7 @@ export default class TodosList extends Component {
                 </tbody>
               </table>
               <form action="https://dailybeer.herokuapp.com/create">
-                  <button type="submit" class="btn btn-outline-secondary">Add a Beer</button>
+                  <button type="submit" class="btn btn-outline-secondary" style={{width: "100%"}}>Add a Beer</button>
               </form>
 
               <br/><br/><br/>

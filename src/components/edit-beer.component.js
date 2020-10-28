@@ -99,6 +99,9 @@ export default class EditTodo extends Component {
     render() {
         return (
             <div>
+            <form action="https://dailybeer.herokuapp.com/beerlist">
+              <button type="submit" class="btn btn-outline-secondary"><ion-icon name="arrow-back-outline"></ion-icon> Go Back to Beer List</button>
+            </form>
             <h3 className="add">Update Beer</h3>
             <form onSubmit = {this.onSubmit}>
               <div className="form-group">

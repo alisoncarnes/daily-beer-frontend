@@ -67,7 +67,12 @@ export default class CreateBeer extends Component {
   }
 
     render() {
-        return (
+        return (<div>
+
+          <form action="https://dailybeer.herokuapp.com/beerlist">
+            <button type="submit" class="btn btn-outline-secondary"><ion-icon name="arrow-back-outline"></ion-icon> Go Back to Beer List</button>
+          </form>
+
             <div style={{marginTop: 10}}>
                 <h3 className="add">Add a Beer</h3>
                 <form onSubmit = {this.onSubmit}>
@@ -108,6 +113,7 @@ export default class CreateBeer extends Component {
                     </div>
                 </form>
             </div>
+          </div>
         )
     }
 }
