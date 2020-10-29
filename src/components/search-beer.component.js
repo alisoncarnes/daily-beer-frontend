@@ -41,7 +41,7 @@ export default class SearchBeer extends Component{
             <div className="icon">
               <img className="beer-icon" src="https://i.ibb.co/YDsR8Gq/kisspng-beer-oktoberfest-computer-icons-alcoholic-drink-cl-oktoberfest-5ac072f546e768-40786661152256.png"/><br/>
               <p><h2>What to Do</h2></p>
-              <p>On this page you can search for beers based on ABV(alchohol by volumne). All you need to do is type in a number into the search and you'll receive ten beers lower than that value.</p>
+              <p>On this page you can search for beers based on ABV(alcohol by volumne). All you need to do is type in a number into the search and you'll receive 12 beers lower than that value.</p>
             </div>
 
 
