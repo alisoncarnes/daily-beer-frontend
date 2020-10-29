@@ -63,7 +63,7 @@ export default class TodosList extends Component {
                 <div className="col">
                 <div className="icon">
                   <img className="beer-icon" src="https://i.ibb.co/QHF6DJs/beerkegs.png"/>
-                  <p><h2>Get Started</h2></p>
+                  <p><h2>Explore</h2></p>
                   <div class="buttons">
                     <form action="https://dailybeer.herokuapp.com/beerlist">
                       <button type="submit" class="btn btn-outline-secondary">Your Beer List</button>
