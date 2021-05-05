@@ -1,6 +1,6 @@
 ### Live Site: https://dailybeer.herokuapp.com
 
-### Technologies Used:
+### Technologies Used
 
 **MongoDB, React.js, Node.js, Express, Bootstrap & CSS**
 
